@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">My Playlist</string>
+    <string name="my_playlist">My Playlist</string>
+    <string name="escuchar">listen</string>
+
+    <string name="pl1">Playlist 1</string>
+    <string name="pl2">Playlist 2</string>
+    <string name="pl3">Playlist 3</string>
+    <string name="pl4">Playlist 4</string>
+    <string name="pl5">Playlist 5</string>
+    <string name="pl6">Playlist 6</string>
+    <string name="pl7">Playlist 7</string>
+    <string name="pl8">Playlist 8</string>
+    <string name="pl9">Playlist 9</string>
+    <string name="pl10">Playlist 10</string>
+    <string name="pl11">Playlist 11</string>
+
+    <string name="mu1">Music 1</string>
+    <string name="mu2">Music 2</string>
+    <string name="mu3">Music 3</string>
+    <string name="mu4">Music 4</string>
+    <string name="mu5">Music 5</string>
+    <string name="mu6">Music 6</string>
+    <string name="mu7">Music 7</string>
+    <string name="mu8">Music 8</string>
+    <string name="mu9">Music 9</string>
+    <string name="mu10">Music 10</string>
+</resources>

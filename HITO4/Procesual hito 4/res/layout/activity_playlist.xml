@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jhonatanraya.reciclerview.Adapter.Playlist"
+    android:background="@color/greenLight">
+
+    <LinearLayout
+        android:layout_width="372dp"
+        android:layout_height="592dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="music1"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+
+            <ImageView
+
+                android:id="@+id/playi"
+
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_play_arrow_black_24dp" />
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/stop" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="music2"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <ImageView
+
+                android:id="@+id/playi2"
+
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_play_arrow_black_24dp" />
+
+
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/stop" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="music3"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <ImageView
+
+                android:id="@+id/playi3"
+
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_play_arrow_black_24dp" />
+
+
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/stop" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="94dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="music4"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <ImageView
+
+                android:id="@+id/playi4"
+
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_play_arrow_black_24dp" />
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/stop" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="94dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="music5"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <ImageView
+
+                android:id="@+id/playi5"
+
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_play_arrow_black_24dp" />
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/stop" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="94dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="music6"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <ImageView
+
+                android:id="@+id/playi6"
+
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_play_arrow_black_24dp" />
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/stop" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="94dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="music7"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <ImageView
+
+                android:id="@+id/playi7"
+
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_play_arrow_black_24dp" />
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/stop" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

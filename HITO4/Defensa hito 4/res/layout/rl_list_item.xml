@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlListItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/greenLight"
+    android:padding="12dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/circleImageViewItem"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/tvImage"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/my_playlist"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@id/circleImageViewItem"
+        android:layout_centerVertical="true"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/buttonListen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_button"
+        android:text="@string/escuchar"
+        android:textColor="@color/greenDark"
+        android:layout_toEndOf="@id/tvImage"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp"/>
+
+</RelativeLayout>
